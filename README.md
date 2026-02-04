@@ -46,10 +46,7 @@ This repository contains the frontend internship tasks completed as part of the 
 - JavaScript
 - VS Code
 
----
 
-## 📌 Author
-**Gayatri Patil**
 
 
 ## 📄 Notes
