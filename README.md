@@ -49,6 +49,4 @@ This repository contains the frontend internship tasks completed as part of the 
 
 
 
-## 📄 Notes
-- Each task is organized in a separate folder
-- All files are properly structured as per internship guidelines
+
