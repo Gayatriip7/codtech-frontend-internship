@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat App</title>
+</head>
+<body>
+  <h2>Simple Chat Application</h2>
+
+  <input id="msg" placeholder="Type message">
+  <button onclick="send()">Send</button>
+
+  <ul id="chat"></ul>
+
+  <script>
+    function send() {
+      const msg = document.getElementById("msg").value;
+      if (msg === "") return;
+
+      const li = document.createElement("li");
+      li.innerText = msg;
+      document.getElementById("chat").appendChild(li);
+
+      document.getElementById("msg").value = "";
+    }
+  </script>
+</body>
+</html>
